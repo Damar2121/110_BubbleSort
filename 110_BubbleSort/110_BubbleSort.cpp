@@ -54,6 +54,16 @@ void display() {
     cout << "jumlah pass = " << n - 1 << endl;
     cout << endl;
 }
+
+int main() {
+
+    input();
+    bubblesortarray();
+    display();
+    system("pause");
+
+    return 0;
+}
   
         
 
